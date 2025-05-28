@@ -78,10 +78,10 @@ local about = UITab2:section("『公告』",true)
 about:Label("感谢所有支持禁漫中心的人")
 about:Label("已修复完bug")
 about:Label("♦")
-about:Label("       ")
+about:Label("    😄   ")
 about:Label("感谢大家支持禁漫中心")
 about:Label("十分感谢")
-about:Label("感谢 不拿拿（哈哈哈我神金又回来了）提供源码")
+about:Label("😰")
 
 
 local UITab3 = win:Tab("『通用』",'7734068321')
