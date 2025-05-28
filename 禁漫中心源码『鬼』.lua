@@ -38,8 +38,8 @@ local function HeartbeatUpdate()
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『禁漫中心』"; Text ="核对用户ID中♧"; Duration = 2; })
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『禁漫中心』"; Text ="用户ID核对完毕♣"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『呜土中心』"; Text ="核对用户ID中♧"; Duration = 2; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『呜土中心』"; Text ="用户ID核对完毕♣"; Duration = 4; })
 
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/hun/main/jmlibrary1.lua"))();        
 local win = ui:new("呜土脚本V4")
