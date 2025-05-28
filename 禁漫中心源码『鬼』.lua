@@ -42,7 +42,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『禁漫中
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『禁漫中心』"; Text ="用户ID核对完毕♣"; Duration = 4; })
 
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/hun/main/jmlibrary1.lua"))();        
-local win = ui:new("禁漫中心")
+local win = ui:new("禁漫呜土")
 --
 local UITab1 = win:Tab("『信息』",'7734068321')
 
@@ -75,7 +75,7 @@ local UITab2 = win:Tab("『公告』",'7734068321')
 
 local about = UITab2:section("『公告』",true)
 
-about:Label("感谢所有支持禁漫中心的人")
+about:Label("感谢所有支持禁漫呜土的人")
 about:Label("已修复完bug")
 about:Label("♦")
 about:Label("    😄   ")
